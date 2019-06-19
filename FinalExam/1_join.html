@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/join.css">
+    <script src="js/2_join.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <form onchange="Event()">
+      <label for="ID">아이디</label>
+      <input type="text" id="ID"> <br>
+
+      <label for="PW">비밀번호</label>
+      <input type="password" id="PW"> <br>
+
+      <label for="PWC">비밀번호 확인</label>
+      <input type="password" id="PWC"> <br>
+
+      <p id="check">비밀번호 확인 row</p>
+
+      <label for="NAME">이름</label>
+      <input type="text" id="NAME"> <br>
+
+      <label for="SEX">성별</label>
+      <input type="checkbox" id="SEX">남성
+      <input type="checkbox" id="SEX">여성 <br>
+
+      <label for="HOBBY">취미</label>
+      <input type="checkbox" id="HOBBY">운동
+      <input type="checkbox" id="HOBBY">음악
+      <input type="checkbox" id="HOBBY">개발 <br>
+
+      <input type="submit">
+
+
+    </form>
+    <script>
+      function Event(){
+        check_password();
+      }
+
+    </script>
+  </body>
+</html>
